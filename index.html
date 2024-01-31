@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/143a9facfd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav >
+            <h2 class="logo">My Portfolio</h2>
+            <ul id="sidemenu">
+                <li><a href='#header'>Home</a></li>   
+                <li><a href='#about'>About</a></li>  
+                <li><a href='#services'>Services</a></li>  
+                <li><a href='#projects'>Projects</a></li>  
+                <li><a href='#contact'>Contact</a></li>  
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Information Technology Student</p>
+            <h1>Hi, I'm <span>Rhalf Rheven</span><br>An IT Student From Philippines </h1>
+        </div>
+    </div>
+</div>
+<!-------------SECTION NG TUNGKOL SAKIN HASHDHADS----------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Gradpic.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Greetings! I'm Rhalf Rheven U. Mendoza, a passionate and ambitious second-year Information Technology (IT) student currently navigating the exciting world of technology at Phinma University Of Pangasinan. My journey in IT is not just 
+                    about coding and algorithms; it's about harnessing the power of innovation to create solutions that make a difference.Join me on this journey through the world of ones and zeros, where each challenge is an opportunity, and every line 
+                    of code tells a story of innovation. Together, let's code the future!</p>
+                    <div class="tab-titles">
+                        <P class="tab-links active-link" onclick="opentab('skills')">Skills</P>
+                        <P class="tab-links" onclick="opentab('experience')">Experience</P>
+                        <P class="tab-links"onclick="opentab('education')">Education</P>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android Mobile Apps</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Pythone Coding</span><br>We developed a python console game</li>
+                            <li><span>Java Coding</span><br>We developed a java game with GUI</li>
+                            <li><span>Kotlin Coding</span><br>We developed a mobile application</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2014</span><br>Graduated in Elementary at Ambuetel Elementary School</li>
+                            <li><span>2020</span><br>Graduated in High School at Calasiao Comprehensive National Hgh School</li>
+                            <li><span>2022</span><br>Graduated in Senior High School at AMA University</li>
+                        </ul>
+                    </div>
+
+
+        </div>
+    </div>
+</div>
+
+<!-- ANG AKING SERBISYO HASHDAHDHDS(SERVICES) -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Sa ngayon wala pa akong ma offer ilalagay ko lang to 
+                    para <br> merong text na nakasulat sa portfolio ko salamat po.
+                </p>
+                <a href="">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Desing</h2>
+                <p>Sa ngayon wala pa akong ma offer ilalagay ko lang to 
+                    para <br> merong text na nakasulat sa portfolio ko salamat po.
+                </p>
+                <a href="">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Design</h2>
+                <p>Sa ngayon wala pa akong ma offer ilalagay ko lang to 
+                    para <br> merong text na nakasulat sa portfolio ko salamat po.
+                </p>
+                <a href="">Learn more</a>
+            </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ---------------project sections----------------------- -->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+               <img src="cbproject.png">
+               <div class="layer">
+                <h3>Cyber Cartel Mobile</h3>
+                <p>Cyber Cartel is an mobile application where you
+                    can buy pc components and pre-build computers.
+                </p>
+                <a href="#"><i class="fa-solid fa-link"></i></a>
+               </div>
+            </div>
+
+            <div class="work">
+                <img src="projectS.png">
+                <div class="layer">
+                    <h3>ServiceU</h3>
+                    <p>ServiceU is an mobile application were the user
+                        can hire a service provider through online
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                   </div>
+             </div>
+
+             <div class="work">
+                <img src="cbproject.png">
+                <div class="layer">
+                    <h3>Cyber Cartel Web App</h3>
+                    <p>Cyber Cartel is an Web application where you
+                        can buy pc components and pre-build computers.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                   </div>
+             </div>
+             
+        </div>
+        
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!-----------------------contact------------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>rhus.mendoza.up@phinmaed.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>09565402313</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="My CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>GAWA NI  R2X TO <i class="fa-solid fa-heart-pulse"></i> </p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+            
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+            
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    
+    }
+    </script>
+
+    <script>
+
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+    
+</body>
+</html
